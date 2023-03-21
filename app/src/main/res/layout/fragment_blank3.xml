@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment3">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="320dp"
+            android:layout_height="63dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="44dp"
+            android:fontFamily="@font/calligraffitti"
+            android:text="Cristiano Ronaldo"
+            android:textAlignment="center"
+            android:textColor="#000DFF"
+            android:textSize="34sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="177dp"
+            android:layout_height="218dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/img_2"
+            app:layout_constraintBottom_toTopOf="@+id/textView10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="72dp"
+            android:layout_marginBottom="64dp"
+            android:text="Next"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="396dp"
+            android:layout_height="223dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Förvärvet skedde när Ronaldo var 18 år och det var här han blev riktigt känd Bedrifter i Manchester United: Under sin tid i Manchester United vann Cristiano Ronaldo följande: 3 x Premiership League, 1 x FA-cupen, 2 x Carling Cup och 1 x Champions League Årets spelare: Under år 2008 mottog han FIFA utmärkelsen som Årets spelare Ballon d’Or: Han är en av endast två spelaren i historien att ha vunnit den berömda Ballon d’Or 5 gångar (den andra är Lionel Messi) Dyraste spelare: Han är den dyraste fotbollsspelaren i historien Real Madrid: Han såldes till Real Madrid 26 juni 2009 (med verkan från den 1 juli) för 94 miljoner euro"
+            android:textColor="#0005FB"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.746" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="64dp"
+            android:layout_marginEnd="99dp"
+            android:layout_marginBottom="64dp"
+            android:text="Home"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/button6"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
