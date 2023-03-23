@@ -14,50 +14,51 @@
             android:id="@+id/textView2"
             android:layout_width="373dp"
             android:layout_height="264dp"
-            android:layout_marginTop="21dp"
             android:fontFamily="monospace"
             android:text="Real Madrid, egentligen Real Madrid CF, är en professionell fotbollsklubb i Madrid i Spanien, grundad 1902, som sedan 1929 spelar i den spanska högstadivisionen La Liga. Klubben har blivit känd för sitt helvita matchställ och kallas i spansk media ofta för Los Blancos eller Los Merengues."
             android:textAlignment="center"
             android:textColor="#002AFF"
             android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.578"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.603" />
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="419dp"
-            android:layout_height="301dp"
-            android:layout_marginTop="16dp"
+            android:layout_width="410dp"
+            android:layout_height="291dp"
             android:src="@drawable/img_1"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
 
         <Button
             android:id="@+id/button3"
             android:layout_width="103dp"
             android:layout_height="58dp"
-            android:layout_marginTop="300dp"
             android:text="Next"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.805"
+            app:layout_constraintHorizontal_bias="0.769"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/textView2"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.947" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="103dp"
             android:layout_height="58dp"
-            android:layout_marginTop="300dp"
             android:text="Home"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.233"
+            app:layout_constraintHorizontal_bias="0.175"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/textView2"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.947" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
